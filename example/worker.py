@@ -35,9 +35,9 @@ def go_request(method, path, params, query, headers, body):
 
     Args:
         method: string HTTP method
-        path: URL path (patterned)
-        params: dictionary {string: string} of path parameters
-        query: raw query string // XXX can this be a dictionary too plx?
+        path: URL path (optional if patterned)
+        params: dictionary {string: [string]} of path parameters
+        query: dictionary of {string: [string]} of query string arguments
         headers: dictionary {string: [string]} of header values
         body: raw request body as string
 
