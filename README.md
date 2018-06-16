@@ -1,4 +1,4 @@
-# HTTPy
+# HTTPy [![GoDoc](https://godoc.org/github.com/a-tal/httpy?status.svg)](http://godoc.org/github.com/a-tal/httpy)
 
 Ever wanted to embed some python in your golang http app? Well now you can!
 
