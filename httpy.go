@@ -90,7 +90,7 @@ func Request(
 ) {
 
 	if reqPointer == nil {
-		return 500, nil, nil, errors.New("Init must be called beofre Request")
+		return 500, nil, nil, errors.New("Init must be called before Request")
 	}
 
 	// this is lazy and slow. room for improvement here for sure
