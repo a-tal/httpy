@@ -10,3 +10,7 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Ignore the example build locations
+example/build
+example/dist
